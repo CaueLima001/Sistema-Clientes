@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta name="description" content="Sistema simples de cadastro de clientes">
+
+<meta name="author" content="Seu Nome">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Clientes</title>
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="container mt-5">
+
+<div class="card shadow">
+
+<div class="card-header bg-success text-white">
+
+<h3>Cadastro de Clientes</h3>
+
+</div>
+
+<div class="card-body">
+
+<form id="clienteForm">
+
+<div class="mb-3">
+
+<label>Nome</label>
+
+<input type="text" id="clienteNome" class="form-control" required placeholder="Ex: Neymar JR">
+
+
+</div>
+
+<div class="mb-3">
+
+<div class="mb-3">
+    <label>Telefone</label>
+    <input
+        type="tel"
+        id="clienteTelefone"
+        class="form-control"
+        placeholder="(49) 9933-2500"
+        maxlength="15"
+        required
+    >
+</div>
+</div>
+<div class="mb-3">
+    <label>Cidade</label>
+    <input 
+    type="text" id="clienteCidade" class="form-control" required placeholder="Ex: Otacilio costa">
+    
+</div>
+
+<button type="submit" id="btnSalvar" class="btn btn-success">
+    Salvar Cliente
+</button>
+
+
+</form>
+
+<hr>
+
+<h4>Clientes cadastrados</h4>
+
+<h5>Total de clientes: <span id="totalClientes">0</span></h5>
+
+<ul id="listaClientes" class="list-group"></ul>
+
+<br>
+
+<a href="home.html" class="btn btn-primary">
+
+Voltar
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>

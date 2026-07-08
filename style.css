@@ -1,0 +1,41 @@
+body{
+    background:#0e1827;
+}
+
+.card{
+    border-radius:10px;
+}
+
+.card-header{
+    font-weight:bold;
+}
+
+.btn{
+    margin-top:5px;
+}
+
+
+
+.navbar-brand{
+    font-weight:bold;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    flex: 1;
+}
+
+footer{
+    background: #212529;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
